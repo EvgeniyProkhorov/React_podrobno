@@ -1,0 +1,50 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 50px);
+    grid-template-rows: repeat(2, 50px);
+    grid-column-gap: 3px;
+    grid-row-gap: 3px;
+}
+
+.div1 {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.div1Green {
+    grid-area: 1 / 1 / 2 / 2;
+    background-color: green;
+}
+
+.div2 {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.div2Red {
+    grid-area: 1 / 2 / 2 / 3;
+    background-color: red;
+}
+
+.div3 {
+    grid-area: 1 / 3 / 2 / 4;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: darkslategrey;
+    background-color: red;
+}
+.div3Green {
+    grid-area: 1 / 3 / 2 / 4;
+    border-radius: 30px;
+    background-color: green;
+}
+
+.div4 {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.div5 {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.div6 {
+    grid-area: 2 / 3 / 3 / 4;
+}
